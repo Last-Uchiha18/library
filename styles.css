@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 25px 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(88, 82, 82);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+    color: rgb(226, 204, 204);
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > button {
+    align-self: center;
+    margin-top: 50px;
+}
+
+#book-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#book {
+    border-radius: 10px;
+    background-color:  rgb(184, 176, 176);
+}
+
+input{
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(226, 204, 204);
+}
+
+#book-info > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#book-info > div > span {
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}

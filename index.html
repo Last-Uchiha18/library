@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="book.jpg" alt="book logo">
+                <h1>Library</h1>
+            </div>
+            <button>Log in</button>
+        </div>
+   
+        <button onclick="addBookToLibrary()">+ Add Book</button>
+
+        <dialog id="book">
+            <div id="book-info">
+                <h1>Add New Book</h1>
+                <input type="text" placeholder="Title">
+                <input type="text" placeholder="Author">
+                <input type="text" placeholder="Pages">
+                <div>
+                    <span>Have you read it?</span><input type="checkbox">
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </dialog>
+
+
+        <div class="content">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
