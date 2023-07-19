@@ -19,16 +19,16 @@
         <button onclick="addBookToLibrary()">+ Add Book</button>
 
         <dialog id="book">
-            <div id="book-info">
+            <form id="book-info" onsubmit="addBook(event)">
                 <h1>Add New Book</h1>
-                <input type="text" placeholder="Title">
-                <input type="text" placeholder="Author">
-                <input type="text" placeholder="Pages">
+                <input type="text" placeholder="Title" name="title">
+                <input type="text" placeholder="Author" name="author">
+                <input type="text" placeholder="Pages" name="pages">
                 <div>
-                    <span>Have you read it?</span><input type="checkbox">
+                    <span>Have you read it?</span><input type="checkbox" name="read">
                 </div>
                 <button type="submit">Submit</button>
-            </div>
+            </form>
         </dialog>
 
 
